@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@BrinqueTerapia</title>
+    <link rel="stylesheet" href="./assets/lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/main.css">
+</head>
+<body>
+    <div data-bs-spy="scroll" data-bs-target="header">
+        <header class="navbar navbar-expand-lg sticky-top" id="header">
+            <div class="container">
+                <h1 class="navbar-brand">
+                    <a href="#" target="_top">
+                        <img src="./assets/img/LogoHome.png" class="d-block w-60" alt="LogoHome">
+                    </a>
+                </h1>
+                <nav>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item ">
+                            <a href="#Sobre" class="nav-link texts">Sobre</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#produtos" class="nav-link texts">Produtos</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#contato" class="nav-link texts">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="./assets/img/slide 2.jpeg" class="d-block w-100 carouselimg" alt="Imagem 1">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/img/LogoBT.png" class="d-block w-100 carouselimg" alt="Imagem 2">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/img/slide.jpeg" class="d-block w-100 carouselimg" alt="Imagem 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" title="avancar-slide" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" title="retroceder-slide" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" title="contadorslide" class="active" data-bs-target="#meuCarrossel" data-bs-slide-to="0"></button>
+                <button type="button" title="contadorslide" data-bs-target="#meuCarrossel" data-bs-slide-to="1"></button>
+                <button type="button" title="contadorslide" data-bs-target="#meuCarrossel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+
+        <section id="Sobre">
+            <div class="pt-5 pb-5 justify-content-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="./assets/img/meninaacenando.png" class="d-block w-100 rounded" alt="Menininha">
+                        </div>
+                        <div class="col-md-6 textsobre">
+                            <h2>Sobre <span class="textolaranja">Nós</span></h2>
+                            <p class="texts text-justify">
+                                Bem-vindo à Brinque Terapia, onde a criatividade ganha vida!<br><br>
+                                Nossa marca nasceu da paixão de pais que entendem a importância do estabelecimento de vínculos 
+                                afetivos e memórias através da diversão e criatividade.<br>
+                                Oferecemos uma gama única de brinquedos educativos e sensoriais em gesso, papel e madeira.<br>
+                                Nossos kits de pintura em gesso, jogos, brinquedos de madeira e peças variadas, são ferramentas 
+                                de aprendizado inspiradoras para crianças e idosos.<br> 
+                                Cada peça é uma aventura de aprendizado e diversão. 
+                                Explore nosso mundo encantado, onde a diversão é garantida!
+                                <br><br>
+                                <span class="slogan">Porque brincar faz bem!</span>
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./assets/img/meninoacenando.png" class="d-block w-100 rounded" alt="Menininho">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos" class="pt-5 pb-5 justify-content-center">
+            <div class="container p-0">
+            <div class="row">
+                <h2>Nossos <span class="textolaranja">Produtos</span></h2>
+            </div>
+            <div class="row pt-5 pb-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 pb-5">
+                    <div class="card">
+                        <a href="#" data-toggle="modal" data-target="#imagemModal" data-imagem="./assets/RedSonja.jpeg">
+                            <img src="./assets/img/kit letras.jpeg" class="card-img-top" alt="Card 1">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Kit Letras</h5>
+                            <p class="card-desc">
+                                Itens inclusos:
+                                <ul>
+                                    <li>58 peças em gesso</li>
+                                    <li>3 tintas guache (Cores Primárias)</li>
+                                    <li>1 Pincel</li>
+                                </ul>
+                            </p>
+                            <h5 class="card-price"><span>R$ 20,00</span></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 pb-5">
+                    <div class="card">
+                        <a href="#" data-toggle="modal" data-target="#imagemModal" data-imagem="./assets/RedSonja.jpeg">
+                            <img src="./assets/img/kit P.jpeg" class="card-img-top" alt="Card 2">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Kit Tam. P</h5>
+                            <p class="card-desc">
+                                Itens inclusos:
+                                <ul>
+                                    <li>10 peças em gesso</li>
+                                    <li>6 tintas guache (Cores Primárias)</li>
+                                    <li>1 Pincel</li>
+                                </ul>
+                            </p>
+                            <h5 class="card-price"><span>R$ 25,00</span></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 pb-5">
+                    <div class="card">
+                        <a href="#" data-toggle="modal" data-target="#imagemModal" data-imagem="./assets/RedSonja.jpeg">
+                            <img src="./assets/img/kit M.jpeg" class="card-img-top" alt="Card 2">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Kit Tam. M</h5>
+                            <p class="card-desc">
+                                Itens inclusos:
+                                <ul>
+                                    <li>20 peças em gesso</li>
+                                    <li>6 tintas guache (Cores Primárias)</li>
+                                    <li>2 Pincéis</li>
+                                    <li>3 Massinhas</li>
+                                    <li>1 Cortador de Massinha</li>
+                                    <li>1 Esponja</li>
+                                    <li>1 Disco de Isopor (Godê)</li>
+                                </ul>
+                            </p>
+                            <h5 class="card-price"><span>R$ 40,00</span></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 pb-5">
+                    <div class="card">
+                        <a href="#" data-toggle="modal" data-target="#imagemModal" data-imagem="./assets/RedSonja.jpeg">
+                            <img src="./assets/img/kit G.jpeg" class="card-img-top" alt="Card 2">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Kit Kit Tam. G</h5>
+                            <p class="card-desc">
+                                Itens inclusos:
+                                <ul>
+                                    <li>45 peças em gesso</li>
+                                    <li>6 tintas guache (Cores Primárias)</li>
+                                    <li>2 Pincel</li>
+                                    <li>3 Massinhas</li>
+                                    <li>1 Cortador de Massinha</li>
+                                    <li>1 Esponja</li>
+                                    <li>1 Disco de Isopor (Godê)</li>
+                                </ul>
+                            </p>
+                            <h5 class="card-price"><span>R$ 60,00</span></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 pb-5">
+                    <div class="card">
+                        <a href="#" data-toggle="modal" data-target="#imagemModal" data-imagem="./assets/RedSonja.jpeg">
+                            <img src="./assets/img/logo_redondo_contorno.png" class="card-img-top novo" alt="Card 2">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">+ Novidades em breve!</h5>
+                            <p class="card-desc">
+                                Carregando...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </section>
+
+        <section id="contato">
+            <div class="container mt-5 mb-5 align-items-center justify-content-center">
+                <div class="row ">
+                    <div class="col-md-3 mx-auto">
+                        <img src="./assets/img/meninasentada.png" class="d-block w-100 imgcontato " alt="Menininha">
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <h2>Entre <span class="textolaranja">em</span> contato <span class="textolaranja">conosco</span>:</h2>
+                            <label class="form-label" for="nome">Seu nome:</label>
+                            <input class="form-control border-primary" ="text" id="nome">
+                            <label class="form-label" for="email">Seu e-mail:</label>
+                            <input class="form-control border-primary" ="e-mail" id="email">
+                            <label class="form-label" for="phone">Seu telefone:</label>
+                            <input class="form-control border-primary" ="telefone" id="phone">
+        
+                            <button class="btn btn-success mt-3 w-100 p-3">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-3 mx-auto">
+                        <img src="./assets/img/meninosentado.png" class="d-block w-100 imgcontato" alt="Menininha">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer class="sticky-bottom copyright">Brinque Terapia - Todos os direitos reservados!</footer>
+    
+    <script src="./assets/lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
